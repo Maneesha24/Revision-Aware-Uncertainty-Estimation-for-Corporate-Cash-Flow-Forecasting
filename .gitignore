@@ -1,0 +1,27 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Downloaded data and experiment outputs
+cache/
+outputs/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
